@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    height: 625px;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+.inicio__header{
+    height: 120px;
+    background-image: url("../images/logos/headerima.jpg");
+    background-size: cover;
+}
+
+.main__inicio{
+    height: 385px;
+    background-image: url("../images/logos/inicio.jpg");
+    background-size: cover;
+}
+
+.inicio__footer{
+    height: 120px;
+    background-color: #ffdf28;
+}
+
+.inicio__button{
+    border-color: transparent;
+    border-radius: 40px;
+    height: 52px;
+    width: 150px;
+    margin-top: 22%;
+    margin-left: 45%;
+    color: white;
+    background-color: orangered;
+    font-size: 16px;
+}
+
+.inicio__button:hover{
+    background-color: yellow;
+    -webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease
+}
+
+.list{
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+a{
+    color: white;
+    margin-left: 30px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+
+
+

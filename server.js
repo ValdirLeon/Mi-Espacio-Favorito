@@ -24,7 +24,7 @@ app.use('/logos',express.static(path.resolve(__dirname,"assets/images/logos")))
 app.use('/partes',express.static(path.resolve(__dirname,"assets/images/partes")))
 
 app.get('/',(req,res)=>{
-    res.send("Mi Espacio Favorito")
+    res.render('inicio')
 })
 
 app.listen(PORT,()=>{(console.log(`Servidor funcionando en http//localhost:${PORT}`))})
