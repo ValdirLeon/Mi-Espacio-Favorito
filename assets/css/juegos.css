@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    display: grid;
+    height: 120px;
+    grid-column: 1/ span 3;
+    background:linear-gradient(180deg, #5d6366 0, #415460 25%, #1f4459 50%, #003553 75%, #00264d 100%);
+}
+.header__grid-container{
+    background: url("../logos/headerima.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Imagen{
+    float: left;
+    width:80px ;
+    height: 80px;
+}
+.Logo{
+    width: 180px ;
+    height: 120px;
+}
+
+.Titulo{
+    margin-top: 10px;
+    float: left;
+    font-size: 50px;
+    color: white;
+    padding-left: 30px;
+}
+header nav {
+    float: right;
+    margin-top: 30px;
+
+}
+
+nav a{
+    display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:30px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease
+}
+header nav a:hover {
+	background:#FFC200;
+	border-radius:50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.carousel{
+    background-color:#002e80;
+    grid-column: 1/ span 3;
+    padding: 30px;
+    position: relative;
+}
+.carousel__title{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.carousel-item__details--subtitle{
+    font-size: 20px;
+}
+.carousel__container{
+    white-space: nowrap;
+    margin: 70px 0px;
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+.carousel__container:hover .carousel-item{
+    opacity: 0.3;
+}
+
+.carousel__container:hover .carousel-item:hover {
+    transform: scale(1.5);
+    opacity: 1;
+}
+.carousel-item{
+    background-color: aquamarine;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 450ms all;
+    transform-origin: center left;
+    position: relative;
+}
+.carousel-item:hover ~ .carousel-item {
+    transform: translate3d(100px, 0, 0);
+}
+.carousel-item__details{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9)0%, rgba(0, 0, 0, 0)100%);
+    font-size: 15px;
+    opacity: 0;
+    transition: 450ms opacity;
+    padding: 10px 10px;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+}
+.carousel-item__img1{
+    width: 200px;
+    height:250px;
+    object-fit:fill;
+}
+.carousel-item__details h1{
+    color:#fff;
+    text-align: center;
+    align-self: center;
+}
+.carousel-item__details p {
+    text-align: center;
+    margin: 0px;
+    text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+    -webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease
+}
+.carousel-item__details p:hover{
+    background:#FFC200;
+	border-radius:50px;
+}
+.carousel-item__details:hover{
+    opacity: 1;
+    color: white;
+}
+
+footer{
+    display: grid;
+    grid-column: 1/ span 3;
+    background: #f3c530;
+    justify-items: center;
+    font-size: 25px;
+}
+.list a{
+    padding:10px 20px;
+    color: #fff;
+    text-decoration: none;
+    display: inline;
+    padding: auto;
+}
+.list a:hover{
+    text-decoration: underline;
+}
+.comentario_container{
+    background-color: #00548a;
+}
+.comentario_container h2{
+    color: white;
+}

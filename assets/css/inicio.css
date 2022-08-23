@@ -1,10 +1,4 @@
-body{
-    margin: 0;
-    height: 625px;
-    padding: 0;
-    display: grid;
-    grid-template-rows: 1fr 3fr 1fr;
-}
+@import url(juegos.css);
 
 .inicio__header{
     height: 120px;
@@ -13,14 +7,11 @@ body{
 }
 
 .main__inicio{
-    height: 385px;
     background-image: url("../images/logos/inicio.jpg");
     background-size: cover;
-}
-
-.inicio__footer{
-    height: 120px;
-    background-color: #ffdf28;
+    width: 1350px;
+    min-height: 400px;
+    position: relative;
 }
 
 .inicio__button{
@@ -42,16 +33,8 @@ body{
 	transition:all 500ms ease
 }
 
-.list{
-    margin-left: 35%;
-    margin-top: 3%;
-}
-
-a{
-    color: white;
-    margin-left: 30px;
-    margin-right: 50px;
-    font-size: 20px;
+footer{
+    margin-top: 25px;
 }
 
 
