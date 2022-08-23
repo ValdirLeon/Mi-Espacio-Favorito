@@ -1,7 +1,7 @@
 @import url(juegos.css);
 
 .inicio__header{
-    height: 120px;
+    height: 100px;
     background-image: url("../images/logos/headerima.jpg");
     background-size: cover;
 }
@@ -9,8 +9,8 @@
 .main__inicio{
     background-image: url("../images/logos/inicio.jpg");
     background-size: cover;
-    width: 1350px;
-    min-height: 400px;
+    width: 1366px;
+    min-height: 420px;
     position: relative;
 }
 
@@ -34,9 +34,6 @@
 }
 
 footer{
-    margin-top: 25px;
+    min-height: 92px;
 }
-
-
-
 
