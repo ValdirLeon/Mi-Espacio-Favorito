@@ -1,0 +1,38 @@
+@import url(juegos.css);
+
+.Main__simon{
+    display: grid;
+    background:  #00548a;
+    grid-column: 1/ span 3;
+    grid-template-columns: 0.75fr 0.90fr  0.75fr;
+    min-height: 422px;
+    position: relative;
+}
+
+.simon__container{
+    background: auto;
+    display: grid;
+    padding: 10px;
+    background: white;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+#red{
+    background: red;
+    border-top-left-radius: 500px;
+}
+
+#blue{
+    background: blue;
+    border-top-right-radius: 500px;
+}
+
+#green{
+    background: green;
+    border-bottom-left-radius: 500px;
+}
+
+#orange{
+    background: orange;
+    border-bottom-right-radius: 500px;
+}

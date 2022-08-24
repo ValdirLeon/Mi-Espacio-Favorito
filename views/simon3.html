@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/simondice.css">
+    <title>Simon Dice</title>
+</head>
+<body>
+    <header>
+        <div class="header__grid-container">
+            <img class="Logo" src="../assets/images/logos/logo.jpg" alt="Mi espacio favorito" />
+            <nav>
+                <a>Salir</a>
+                <a>Contáctenos</a>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe1vI5fXLD_v7nLBfzodJw6eOpbag_0_UTul4ZMBRHNE9DEdQ/viewform?usp=sf_link">Encuesta</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="Main__simon">
+        <div></div>
+        <div class="simon__container">
+            <div id="red" onclick="presionar(0)"></div>
+            <div id="blue" onclick="presionar(1)"></div>
+            <div id="green" onclick="presionar(2)"></div>
+            <div id="orange" onclick="presionar(3)"></div>
+        </div>
+        <div></div>
+    </section>
+
+    <footer class="footer">
+        <ul class="list">
+            <a>Términos de uso</a>
+            <a>Privacidad</a>
+        </ul>
+    </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../assets/js/simon.js"></script>
+</body>
+</html>

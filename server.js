@@ -31,4 +31,8 @@ app.get('/juegos',(req,res)=>{
     res.render('juegos')
 })
 
+app.get('/juegos/simon-dice',(req,res)=>{
+    res.render('simon')
+})
+
 app.listen(PORT,()=>{(console.log(`Servidor funcionando en http//localhost:${PORT}`))})
