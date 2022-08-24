@@ -31,6 +31,10 @@ app.get('/juegos',(req,res)=>{
     res.render('juegos')
 })
 
+app.get('/juegos/cuerpo-humano',(req,res)=>{
+    res.render('cuerpohumano')
+})
+
 app.get('/juegos/simon-dice',(req,res)=>{
     res.render('simon')
 })

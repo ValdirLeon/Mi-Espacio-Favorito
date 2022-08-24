@@ -1,0 +1,103 @@
+@import url(juegos.css);
+
+.main {
+    display: grid;
+    background: #00548a;
+    grid-column: 1 / span 3;
+    min-height: 422px;
+    position: relative;
+}
+
+.main__container {
+    background: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.partes__container {
+    background: auto;
+    padding-left: 110px;
+    padding-top: 150px;
+}
+
+.parte {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    border-radius: 50px;
+}
+
+.partes__cen {
+    display: grid;
+    grid-template-rows: 0.5fr 1.4fr 0.5fr 0.5fr 0.4fr 0.5fr 0.4fr 1.2fr 0.6fr 1.4fr 1fr 1.6fr 0.5fr 0.6fr;
+}
+
+.r1 {
+    display: grid;
+    grid-template-columns: 0.7fr 1fr 0.4fr;
+}
+
+.r2 {
+    display: grid;
+    grid-template-columns: 1.4fr 0.3fr 1.3fr 0.3fr 0.8fr;
+}
+
+.r3 {
+    display: grid;
+    grid-template-columns: 2.1fr 0.4fr 0.3fr 0.6fr 0.6fr 0.5fr 0.3fr 0.5fr 1.2fr;
+}
+
+.r4 {
+    display: grid;
+    grid-template-columns: 3.5fr 0.5fr 1.5fr 1fr 1.2fr 0.7fr 2fr;
+}
+
+.r5 {
+    display: grid;
+    grid-template-columns: 1.5fr 0.2fr 0.7fr 0.2fr 1fr;
+}
+
+.r6 {
+    display: grid;
+    grid-template-columns: 0.5fr 0.4fr 0.5fr 0.3fr 1fr;
+}
+
+.r7 {
+    display: grid;
+    grid-template-columns: 0.25fr 0.2fr 1fr;
+}
+
+.r8 {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1.8fr 0.5fr 0.8fr;
+}
+
+.r9 {
+    display: grid;
+    grid-template-columns: 1.1fr 0.2fr 0.3fr;
+}
+
+.r91 {
+    display: grid;
+    grid-template-rows: 0.7fr 1fr;
+}
+
+.r10 {
+    display: grid;
+    grid-template-columns: 1.4fr 0.3fr 0.2fr 0.3fr 1fr;
+}
+
+.r11 {
+    display: grid;
+    grid-template-columns: 1.4fr 0.5fr 0.1fr 0.5fr 1fr;
+}
+
+#nombre__parte {
+    color: white;
+    padding-left: 110px;
+    padding-top: 150px;
+    font-size:25px;
+    -webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease
+}
