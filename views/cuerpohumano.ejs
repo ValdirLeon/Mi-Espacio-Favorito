@@ -8,16 +8,7 @@
     <title>Cuerpo Humano</title>
 </head>
 <body>
-    <header>
-        <div class="header__grid-container">
-            <img class="Logo" src="/images/logos/logo.jpg" alt="Mi espacio favorito" />
-            <nav>
-                <a>Salir</a>
-                <a>Contáctenos</a>
-                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe1vI5fXLD_v7nLBfzodJw6eOpbag_0_UTul4ZMBRHNE9DEdQ/viewform?usp=sf_link">Encuesta</a>
-            </nav>
-        </div>
-    </header>
+    <%- include('include/_header') %>
 
     <section class="main">
         <div class="main__container">
@@ -127,13 +118,7 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <ul class="list">
-            <a>Términos de uso</a>
-            <a>Privacidad</a>
-        </ul>
-    </footer>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <%- include('include/_footer') %> 
     <script src="/js/cuerpo.js"></script>
 </body>
 </html>

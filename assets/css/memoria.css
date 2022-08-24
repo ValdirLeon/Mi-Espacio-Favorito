@@ -1,0 +1,22 @@
+@import url(juegos.css);
+
+.Main__memoria{
+    display: grid;
+    background: #00548a;
+    grid-column: 1/ span 3;
+    grid-template-columns: 0.5fr 1.5fr 0.5fr;
+    min-height: 432px;
+    position: relative;
+}
+
+.memoria__container{
+    background: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.memoria__img{
+    height: 120px;
+    width: 110px;
+    padding: 10px;
+}
