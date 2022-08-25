@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/actividades.css">
+    <title>Simon Dice</title>
+</head>
+<body>
+    <header>
+        <div class="header__grid-container">
+            <img class="Logo" src="../assets/images/logos/logo.jpg" alt="Mi espacio favorito" />
+            <nav>
+                <a>Salir</a>
+                <a>Contáctenos</a>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe1vI5fXLD_v7nLBfzodJw6eOpbag_0_UTul4ZMBRHNE9DEdQ/viewform?usp=sf_link">Encuesta</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="Main__aseo">
+        <div></div>
+        <div class="aseo__container">
+            <div>
+                <h1 id="title"></h1>
+            </div>
+            <div class="act__container">
+                <div class="act__img" id="img1" onclick="comprobar(0)"></div>              
+                <div class="act__img" id="img2" onclick="comprobar(1)"></div>
+                <div class="act__img" id="img3" onclick="comprobar(2)"></div>
+                <div class="act__img" id="img4" onclick="comprobar(3)"></div>
+                <div class="act__img" id="img5" onclick="comprobar(4)"></div>
+            </div>
+        </div>
+        <div></div>
+        </section>
+
+    <footer class="footer">
+        <ul class="list">
+            <a>Términos de uso</a>
+            <a>Privacidad</a>
+        </ul>
+    </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../assets/js/actividades.js"></script>
+</body>
+</html>
