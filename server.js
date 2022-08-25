@@ -23,32 +23,6 @@ app.use('/cartas',express.static(path.resolve(__dirname,"assets/images/cartas"))
 app.use('/logos',express.static(path.resolve(__dirname,"assets/images/logos")))
 app.use('/partes',express.static(path.resolve(__dirname,"assets/images/partes")))
 
-app.get('/',(req,res)=>{
-    res.render('inicio')
-})
-
-app.get('/juegos',(req,res)=>{
-    res.render('juegos')
-})
-
-app.get('/juegos/cuerpo-humano',(req,res)=>{
-    res.render('cuerpohumano')
-})
-
-app.get('/juegos/simon-dice',(req,res)=>{
-    res.render('simon')
-})
-
-app.get('/juegos/memoria',(req,res)=>{
-    res.render('memoria')
-})
-
-app.get('/juegos/actividades',(req,res)=>{
-    res.render('actividades')
-})
-
-app.get('/juegos/relajacion',(req,res)=>{
-    res.render('relajacion')
-})
+app.use('/',require('./server/routes/route.js'))
 
 app.listen(PORT,()=>{(console.log(`Servidor funcionando en http//localhost:${PORT}`))})
